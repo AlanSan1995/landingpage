@@ -7,6 +7,7 @@
     --primary-font: Urbanist;
     --color-dark-light:#ffffff1a;
     --color-dark-extra-light:#ffffff05;
+    --color-red-text:#F12052;
 }
 
 *{ 
@@ -81,7 +82,7 @@ header{
 }
 main{
     width: 100%;
-    height: 200vh;
+    /* height: 200vh; */
     background-color: var(--color-primary-dark);
 }
 .main_background{
@@ -181,6 +182,114 @@ main{
 .presentation_sponsors_cards div img {
     margin-right: 20px;
 }
+/* ____________________ */
+
+.solution_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+    position: relative;
+}
+.panel_control_img{
+    z-index: 10;
+    width: 90%;
+    border: solid 16px var(--color-dark-light);
+}
+.solution_background {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 400px;
+}
+.create_layouts_solution{
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 140px);
+    margin-top: 150px;
+    align-items: center;
+}
+.create_layouts_description{
+    width: 570px;
+}
+.create_layouts_description h3{
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: var(--color-text-primary);
+}
+.create_layouts_description h2{
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 900;
+    color: var(--color-text-primary);
+    margin: 25px 0;
+}
+.create_layouts_description h2 b{
+    color: var(--color-red-text);
+}
+.create_layouts_description p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--color-text-primary);
+}
+.create_layouts_img{
+    width: 30%;
+}
+.analytics_solution{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 140px);
+    margin-top: 150px;
+    align-items: center;
+}
+.analytics_solution_description{
+    width: 370px;
+}
+
+.analytics_solution_description h3{
+    display: flex;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: var(--color-text-primary);
+    align-items: center;
+    
+}
+.analytics_solution_description h2{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    color: var(--color-text-primary);
+    margin: 25px 0;
+    line-height: 46px;
+}
+.analytics_solution_description p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-text-primary);
+}
+.icon_tabla{
+    height: 20px;
+    width: 20px;
+    background-color: var(--color-red-text);
+    padding: 8px;
+    margin-right: 16px;
+}
+.analytics_img{
+    border: solid 16px var(--color-dark-light);
+    width: 60%;
+}
+
 
 
 
