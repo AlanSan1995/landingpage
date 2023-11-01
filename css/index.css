@@ -9,6 +9,7 @@
     --color-dark-extra-light:#ffffff05;
     --color-red-text:#F12052;
     --color-orange-text:#E9900C;
+    --color-background-light:#7373731a;
 }
 
 *{ 
@@ -557,9 +558,62 @@ button img{
 .contacts_info_cards div a img{
     margin-left: 10px;
 }
+/* ------------------Footer------------------ */
+ 
+footer{
+    background-color: var(--color-background-light);
+    position: relative;
+    padding: 0 170px;
+}
+.background_footer{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.option_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
 
+.option_footer div{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.option_footer div h5{
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--color-primary-dark);
+}
+.option_footer div a {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-primary-dark);
+    text-decoration: none;
+}
 
-
+.copy_and_redes{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.copyrights div a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--color-primary-dark);
+    opacity: 0.5;
+    margin-right: 12px;
+}
+.redes_links a{
+    margin-left:20px ;
+}
 
 
 
