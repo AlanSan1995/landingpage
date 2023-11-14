@@ -32,6 +32,9 @@ header{
     display: flex;
     align-items: center;
 }
+.header_nav_button{
+    display: none;
+}
 .header_nav > a {
     margin-right: 50px;
 }
@@ -72,6 +75,7 @@ header{
     border: 0;
     margin-right: 40px;
 }
+
 .header_subscribe_request{
     font-size: 16px;
     font-weight: 700;
@@ -94,6 +98,10 @@ main{
     top: 0;
     right: 0;
 }
+.main_background_tablet{
+    display: none;
+}
+
 .presentation_section{
     z-index: 10;
     position: relative;
@@ -149,9 +157,15 @@ main{
 .presentation_watch_button img{
     margin-right: 15px;
 }
+
 .presentation_image{
     width: 45%;
 }
+
+.presentation_image_tablet{
+    display: none;
+}
+
 .presentation_sponsors{
     margin: 0 70px;
 }
@@ -300,7 +314,6 @@ main{
 .resource_key_benefits{
     width: calc(100% - 140px);
     margin: 70px 0;
-
 }
 .resource_key_description h3{
     font-size: 12px;
@@ -405,7 +418,7 @@ main{
     top: 0;
     right: 0;
 }
-button img{
+.resource_early_access button img{
     padding: 4px;
     background-color: var(--color-dark-light);
     margin-left: 30px;
@@ -614,14 +627,3 @@ footer{
 .redes_links a{
     margin-left:20px ;
 }
-
-
-
-
-
-
-
-
-
-
-
