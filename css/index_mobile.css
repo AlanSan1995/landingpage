@@ -51,9 +51,13 @@
         position: absolute;
         top: 400px;
         display: block;
+        width: 100%;
     }
     .presentation_image_tablet{
         display: none;
+    }
+    .presentation_img_mobile {
+        width: 100%;
     }
     .presentation_sponsors h3{
         font-size: 18px;
@@ -117,6 +121,7 @@
     }
     .resource_key_info{
         margin-top: 30px;
+        flex-direction: column-reverse;
     }
     .resource_key_description h2{
         font-size: 28px;
@@ -124,14 +129,140 @@
         line-height: 130%;
         margin-top: 20px;
     }
+    .resource_key_cards{
+        width: 100%;
+    }
     .resource_key_cards div{
         padding: 5px 20px ;
+        
     }
     .resource_key_card_2{
         margin: 20px 0;
     }
+    .resource_img{
+        display: block;
+        width: 100%;
+        margin: 30px 0 0 0 ;
+    }
+    .resource_early_access{
+        margin: 0;
+        padding: 60px 0;
+    }
+    .resource_early_access h2{
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 130%;
+        margin: 0 0 20px 0;
+    }
+    .resource_early_access p{
+        padding: 0 20px;
+        margin: 0 0 30px 0;
+    }
+    .resource_early_access p br{
+        display: none;
+    }
+    .resource_background_img{
+        width: 45%;
+    }
+    .pricing_info_graph{
+        margin: 0px 20px;
+        width: calc(100% - 40px);
+    }
+    .pricing_info_graph_text h2{
+        font-size: 28px;
+        line-height: 130%;
+    }
+    .pricing_info_graph_text p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .pricing_grafico{
+        display: none;
+    }
+    .pricing_grafico_mobile{
+        z-index: 10;
+        display: block;
+    }
+    .pricing_separador_2{
+        margin: 0px;
+    }
+    .contacts{
+        padding: 60px 20px;
+    }
+    .contacts_title{
+        display: flex;
+        flex-direction:column ;
+        align-items:flex-start;
+        margin: 0 0 40px 0;
+    }
+    .contacts_info_cards{
+        flex-direction: column;
+    }
+    .contacts_title h2{
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 130%;
+        margin: 0 0 15px 0;
+    }
+    .contacts_info_cards div{
+        width: 100%;
+    }
+    .contacts_info_cards div p{
+        margin: 20px 0 0 0;
+    }
+    .contacts_info_cards_3{
+        margin: 40px 0 0 0;
+    }
+    .contacts_info_cards div h4{
+        font-size: 20px;
+        line-height: 28px; 
+    }
+    footer{
+        margin-top: 0;
+        padding: 0px 20px;
+    }
+    .option_footer{
+        padding: 40px 0;
+        flex-wrap: wrap;
+    }
+    .option_footer div{
+        width: 50%;
+    }
+    .option_footer div:nth-child(1),.option_footer div:nth-child(2){
+        margin-bottom: 30px;
+    }
+    .copy_and_redes{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .copyrights{
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+    .copyrights h5{
+        margin: 0 0 12px 0;
+    }
+    .copyrights div{
+        text-align: center;
+        
+    }
+    .copyrights div a{
+        margin: 0;
+        margin: 0 5px;
+    }
+
+    .redes_links a{
+        margin: 0 10px;
+    }
+    
 
 
+
+
+
+
+    
 
 
 

@@ -109,6 +109,9 @@
     .pricing_grafico{
         width: 100%;
     }
+    .pricing_grafico_mobile{
+        display: none;
+    }
     .pricing_info_graph_text h2 b br, .pricing_info_graph_text p br{
         display: none;
     }
